@@ -1,14 +1,16 @@
 package br.com.caelum.argentum.modelo;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public final class Candlestick {
-    private final double abertura;
-    private final double fechamento;
-    private final double minimo;
-    private final double maximo;
-    private final double volume;
-    private final Calendar data;
+    private final double abertura;  //preço primeira negociação do dia
+    private final double fechamento;    //preço última negociação do dia
+    private final double minimo;    //preço mínimo da negociação do dia
+    private final double maximo;    //preço máximo da negociação do dia
+    private final double volume;    //quantidade de dinheiro que passou pelas negociações do dia
+    private final Calendar data;    //dia em questão
 
     public Candlestick(double abertura, double fechamento, double minimo, double maximo, double volume, Calendar data) {
         this.abertura = abertura;
@@ -49,5 +51,20 @@ public final class Candlestick {
 
     public boolean isBaixa(){
         return abertura > fechamento;
+    }
+
+    @Override
+    public String toString() {
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = data.getTime();
+
+        return "Candlestick [" +
+                "Abertura = " + abertura +
+                ", Fechamento = " + fechamento +
+                ", Mínima = " + minimo +
+                ", Máxima = " + maximo +
+                ", Volume = " + volume +
+                ", Data = " + format.format(date) +
+                ']';
     }
 }
