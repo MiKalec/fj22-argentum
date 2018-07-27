@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a64ca6f-cda5-454b-ac43-e2d66aea55a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CandleBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CandlestickTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NegociacaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fj22-argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fj22-argentum.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandleBuilder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CandleBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +66,7 @@
       <file leaf-file-name="Candlestick.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="135">
               <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,6 +75,15 @@
                 <element signature="e#2082#2083#0" expanded="true" />
                 <element signature="e#2126#2127#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Negociacao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -106,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandlestickTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CandlestickTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="810">
               <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -153,9 +149,9 @@
         <option value="$PROJECT_DIR$/src/test/java/NegociacaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CandleBuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java" />
         <option value="$PROJECT_DIR$/src/test/java/CandlestickTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" />
       </list>
     </option>
   </component>
@@ -216,15 +212,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="argentum" type="462c0819:PsiDirectoryNode" />
               <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fj22-argentum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fj22-argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fj22-argentum" type="b2602c69:ProjectViewProjectNode" />
@@ -462,13 +449,17 @@
       <option name="project" value="LOCAL" />
       <updated>1532633469345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Capítulo 3 finish">
+      <created>1532710892933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532710892933</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_fj22-argentum - 2018.07.27 at 11h 04m 18s.xml">
-      <configuration name="All in fj22-argentum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CandlestickFactoryTest_semNegociacaoGeraZeros - 2018.07.27 at 11h 07m 30s.xml">
       <configuration name="CandlestickFactoryTest.semNegociacaoGeraZeros" configurationId="JUnit" />
     </history-entry>
@@ -495,6 +486,9 @@
     </history-entry>
     <history-entry file="CandleBuilderTest_geracaoDeCandleDeveTerTodosOsDadosNecessarios - 2018.07.27 at 13h 52m 31s.xml">
       <configuration name="CandleBuilderTest.geracaoDeCandleDeveTerTodosOsDadosNecessarios" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CandlestickTest_aberturaIgualFechamentoEhAlta - 2018.07.27 at 14h 00m 32s.xml">
+      <configuration name="CandlestickTest.aberturaIgualFechamentoEhAlta" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +534,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Capítulo 2 completo" />
     <MESSAGE value="Capítulo 3 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Capítulo 3 start" />
+    <MESSAGE value="Capítulo 3 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capítulo 3 finish" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/testes/TestaNegociacaoPetrobrasNegativa.java">
@@ -753,17 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fj22-argentum.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -812,13 +796,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="810">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -832,24 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

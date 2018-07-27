@@ -12,12 +12,12 @@ public class CandleBuilder {
     private double volume;
     private Calendar data;
 
-    boolean aberturaTest;
-    boolean fechamentoTest;
-    boolean minimoTest;
-    boolean maximoTest;
-    boolean volumeTest;
-    boolean dataTest;
+    private boolean aberturaTest;
+    private boolean fechamentoTest;
+    private boolean minimoTest;
+    private boolean maximoTest;
+    private boolean volumeTest;
+    private boolean dataTest;
 
     public CandleBuilder comAbertura(double abertura){
         this.abertura = abertura;
