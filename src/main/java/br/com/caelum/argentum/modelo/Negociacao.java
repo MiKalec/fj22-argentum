@@ -8,21 +8,29 @@ public final class Negociacao {
     private final Calendar data;
 
     public Negociacao(double preco, int quantidade, Calendar data) {
+        if(data == null){
+            throw new IllegalArgumentException("Data nao pode ser null");
+        }
         this.preco = preco;
         this.quantidade = quantidade;
         this.data = data;
     }
 
     public double getPreco() {
-        return preco;
+        //para garantir imutabilidade
+        double precoClone = preco;
+        return precoClone;
     }
 
     public int getQuantidade() {
-        return quantidade;
+        //para garantir imutabilidade
+        int quantidadeClone = quantidade;
+        return quantidadeClone;
     }
 
     public Calendar getData() {
-        return data;
+        //para garantir imutabilidade
+        return (Calendar) data.clone();
     }
 
     public double getVolume(){

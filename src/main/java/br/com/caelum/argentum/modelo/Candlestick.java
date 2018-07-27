@@ -13,6 +13,27 @@ public final class Candlestick {
     private final Calendar data;    //dia em questão
 
     public Candlestick(double abertura, double fechamento, double minimo, double maximo, double volume, Calendar data) {
+        if(minimo > maximo){
+            throw new IllegalArgumentException("Mínimo maior que o máximo, errado!");
+        }
+
+        if(abertura < 0){
+            throw new IllegalArgumentException("Valor de abertura negativo");
+        }
+        if(fechamento < 0){
+            throw new IllegalArgumentException("Valor de fechamento negativo");
+        }
+        if(minimo < 0){
+            throw new IllegalArgumentException("Valor mínimo negativo");
+        }
+        if(maximo < 0){
+            throw new IllegalArgumentException("Valor máximo negativo");
+        }
+        if(volume < 0){
+            throw new IllegalArgumentException("Valor do volume negativo");
+        }
+
+
         this.abertura = abertura;
         this.fechamento = fechamento;
         this.minimo = minimo;
@@ -46,7 +67,7 @@ public final class Candlestick {
     }
 
     public boolean isAlta(){
-        return abertura < fechamento;
+        return abertura <= fechamento;
     }
 
     public boolean isBaixa(){
