@@ -46,13 +46,13 @@ public class LeitorXMLTest {
     @Test
     public void carregaXMLComPrecoFaltando(){
         String xmlTeste = "<list>" +
-                "<negociacao>" +
-                "<quantidade>1000</quantidade>" +
-                "<data>" +
-                "<time>1322233344455</time>" +
-                "</data>" +
-                "</negociacao>" +
-                "</list>";
+                            "<negociacao>" +
+                                "<quantidade>1000</quantidade>" +
+                                "<data>" +
+                                    "<time>1322233344455</time>" +
+                                "</data>" +
+                            "</negociacao>" +
+                          "</list>";
 
         LeitorXML leitor = new LeitorXML();
         InputStream xml = new ByteArrayInputStream(xmlTeste.getBytes());
@@ -63,13 +63,13 @@ public class LeitorXMLTest {
     @Test
     public void carregaXMLComQuantidadeFaltando(){
         String xmlTeste = "<list>" +
-                "<negociacao>" +
-                "<preco>43.5</preco>" +
-                "<data>" +
-                "<time>1322233344455</time>" +
-                "</data>" +
-                "</negociacao>" +
-                "</list>";
+                            "<negociacao>" +
+                                "<preco>43.5</preco>" +
+                                "<data>" +
+                                    "<time>1322233344455</time>" +
+                                "</data>" +
+                            "</negociacao>" +
+                          "</list>";
 
         LeitorXML leitor = new LeitorXML();
         InputStream xml = new ByteArrayInputStream(xmlTeste.getBytes());
