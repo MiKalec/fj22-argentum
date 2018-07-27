@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a64ca6f-cda5-454b-ac43-e2d66aea55a7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xstream_1_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeitorXMLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fj22-argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fj22-argentum.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +22,35 @@
       <file leaf-file-name="CandlestickFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
+            <state relative-caret-position="-730">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeitorXML.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeitorXMLTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LeitorXMLTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandleBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CandleBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -54,7 +84,7 @@
       <file leaf-file-name="CandlestickFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="242">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,8 +112,8 @@
       <file leaf-file-name="Negociacao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            <state>
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -152,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Candlestick.java" />
         <option value="$PROJECT_DIR$/src/test/java/CandlestickTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LeitorXMLTest.java" />
       </list>
     </option>
   </component>
@@ -211,15 +243,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fj22-argentum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fj22-argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="argentum" type="462c0819:PsiDirectoryNode" />
               <item name="modelo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,7 +267,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/xstream-1.4.8.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -262,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CandlestickTest.aberturaIgualFechamentoEhAlta">
+  <component name="RunManager" selected="JUnit.LeitorXMLTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -277,57 +300,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CandleBuilderTest.geracaoDeCandleDeveTerTodosOsDadosNecessarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fj22-argentum" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CandleBuilderTest" />
-      <option name="METHOD_NAME" value="geracaoDeCandleDeveTerTodosOsDadosNecessarios" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CandlestickFactoryTest.semNegociacaoGeraZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fj22-argentum" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CandlestickFactoryTest" />
-      <option name="METHOD_NAME" value="semNegociacaoGeraZeros" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CandlestickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fj22-argentum" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CandlestickTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -351,13 +323,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CandlestickTest.precoMaximoNaoPodeSerMenorQueMinimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeitorXMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fj22-argentum" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CandlestickTest" />
-      <option name="METHOD_NAME" value="precoMaximoNaoPodeSerMenorQueMinimo" />
+      <option name="MAIN_CLASS_NAME" value="LeitorXMLTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeitorXMLTest.carregaXMLComQuantidadeFaltando" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fj22-argentum" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeitorXMLTest" />
+      <option name="METHOD_NAME" value="carregaXMLComQuantidadeFaltando" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fj22-argentum" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeitorXMLTest" />
+      <option name="METHOD_NAME" value="carregaXMLComUmaNegociacaoEmListaUnitaria" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeitorXMLTest.carregaXMLSemNegociacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fj22-argentum" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeitorXMLTest" />
+      <option name="METHOD_NAME" value="carregaXMLSemNegociacao" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -408,19 +431,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in fj22-argentum" />
-      <item itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraZeros" />
-      <item itemvalue="JUnit.CandlestickTest.precoMaximoNaoPodeSerMenorQueMinimo" />
-      <item itemvalue="JUnit.CandlestickTest" />
-      <item itemvalue="JUnit.CandleBuilderTest.geracaoDeCandleDeveTerTodosOsDadosNecessarios" />
       <item itemvalue="JUnit.CandlestickTest.aberturaIgualFechamentoEhAlta" />
+      <item itemvalue="JUnit.LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" />
+      <item itemvalue="JUnit.LeitorXMLTest.carregaXMLSemNegociacao" />
+      <item itemvalue="JUnit.LeitorXMLTest.carregaXMLComQuantidadeFaltando" />
+      <item itemvalue="JUnit.LeitorXMLTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeitorXMLTest" />
+        <item itemvalue="JUnit.LeitorXMLTest.carregaXMLComQuantidadeFaltando" />
+        <item itemvalue="JUnit.LeitorXMLTest.carregaXMLSemNegociacao" />
+        <item itemvalue="JUnit.LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" />
         <item itemvalue="JUnit.CandlestickTest.aberturaIgualFechamentoEhAlta" />
-        <item itemvalue="JUnit.CandleBuilderTest.geracaoDeCandleDeveTerTodosOsDadosNecessarios" />
-        <item itemvalue="JUnit.CandlestickTest" />
-        <item itemvalue="JUnit.CandlestickTest.precoMaximoNaoPodeSerMenorQueMinimo" />
-        <item itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraZeros" />
       </list>
     </recent_temporary>
   </component>
@@ -456,31 +479,17 @@
       <option name="project" value="LOCAL" />
       <updated>1532710892933</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Capítulo 3 finish">
+      <created>1532715300360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532715300360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CandlestickFactoryTest_semNegociacaoGeraZeros - 2018.07.27 at 11h 07m 30s.xml">
-      <configuration name="CandlestickFactoryTest.semNegociacaoGeraZeros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CandlestickFactoryTest_semNegociacaoGeraZeros - 2018.07.27 at 11h 09m 07s.xml">
-      <configuration name="CandlestickFactoryTest.semNegociacaoGeraZeros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CandlestickTest_precoMaximoNaoPodeSerMenorQueMinimo - 2018.07.27 at 11h 12m 58s.xml">
-      <configuration name="CandlestickTest.precoMaximoNaoPodeSerMenorQueMinimo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CandlestickTest_precoMaximoNaoPodeSerMenorQueMinimo - 2018.07.27 at 11h 14m 23s.xml">
-      <configuration name="CandlestickTest.precoMaximoNaoPodeSerMenorQueMinimo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CandlestickTest - 2018.07.27 at 13h 27m 01s.xml">
-      <configuration name="CandlestickTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_fj22-argentum - 2018.07.27 at 13h 32m 09s.xml">
-      <configuration name="All in fj22-argentum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_fj22-argentum - 2018.07.27 at 13h 41m 51s.xml">
-      <configuration name="All in fj22-argentum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CandleBuilderTest_geracaoDeCandleDeveTerTodosOsDadosNecessarios - 2018.07.27 at 13h 45m 43s.xml">
       <configuration name="CandleBuilderTest.geracaoDeCandleDeveTerTodosOsDadosNecessarios" configurationId="JUnit" />
     </history-entry>
@@ -489,6 +498,27 @@
     </history-entry>
     <history-entry file="CandlestickTest_aberturaIgualFechamentoEhAlta - 2018.07.27 at 14h 00m 32s.xml">
       <configuration name="CandlestickTest.aberturaIgualFechamentoEhAlta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLComUmaNegociacaoEmListaUnitaria - 2018.07.27 at 16h 16m 39s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLComUmaNegociacaoEmListaUnitaria - 2018.07.27 at 16h 19m 04s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLComUmaNegociacaoEmListaUnitaria - 2018.07.27 at 16h 19m 22s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLComUmaNegociacaoEmListaUnitaria" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLSemNegociacao - 2018.07.27 at 16h 22m 59s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLSemNegociacao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLSemNegociacao - 2018.07.27 at 16h 23m 43s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLSemNegociacao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLComQuantidadeFaltando - 2018.07.27 at 16h 26m 50s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLComQuantidadeFaltando" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeitorXMLTest_carregaXMLComQuantidadeFaltando - 2018.07.27 at 16h 29m 44s.xml">
+      <configuration name="LeitorXMLTest.carregaXMLComQuantidadeFaltando" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -514,10 +544,10 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.393534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38795987" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19529983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20502432" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,10 +800,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/testes/TestaCandleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
+        <state relative-caret-position="150">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,17 +839,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/testes/TestaCandleBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="-730">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,27 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LeitorXMLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,7 +978,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.3</last-edited>
+          <last-edited>xstream-1.4.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
