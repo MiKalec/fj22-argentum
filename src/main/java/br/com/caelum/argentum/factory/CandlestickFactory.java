@@ -3,6 +3,7 @@ package br.com.caelum.argentum.factory;
 import br.com.caelum.argentum.modelo.Candlestick;
 import br.com.caelum.argentum.modelo.Negociacao;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -35,5 +36,28 @@ public class CandlestickFactory {
                 : negociacoes.get(negociacoes.size() - 1).getPreco();
 
         return new Candlestick(abertura, fechamento, minimo, maximo, volume, data);
+    }
+
+    public List<Candlestick> constoiCandles(List<Negociacao> negociacoes) {
+        List<Candlestick> candles = new ArrayList<>();
+
+        List<Negociacao> negociacoesDoDia = new ArrayList<>();
+        Calendar dataAtual = negociacoes.get(0).getData();
+
+        for(Negociacao negociacao : negociacoes){
+            if(negociacao.getData().before(dataAtual)){
+                throw new IllegalStateException("Negociações em ordem errada");
+            }
+            if(!negociacao.isMesmoDia(dataAtual)){
+                Candlestick candleDoDia = constoiCandleParaData(dataAtual, negociacoesDoDia);
+                candles.add(candleDoDia);
+                negociacoesDoDia = new ArrayList<>();
+                dataAtual = negociacao.getData();
+            }
+            negociacoesDoDia.add(negociacao);
+        }
+        Candlestick candleDoDia = constoiCandleParaData(dataAtual, negociacoesDoDia);
+        candles.add(candleDoDia);
+        return candles;
     }
 }
