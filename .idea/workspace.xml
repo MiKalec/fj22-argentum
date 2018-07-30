@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a64ca6f-cda5-454b-ac43-e2d66aea55a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java" afterDir="false" />
+    <list default="true" id="8a64ca6f-cda5-454b-ac43-e2d66aea55a7" name="Default" comment="Capítulo 5 completo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/ws/ClienteWebService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NegociacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NegociacaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="CandlestickFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="173" column="77" lean-forward="true" selection-start-line="173" selection-start-column="77" selection-end-line="173" selection-end-column="77" />
+            <state relative-caret-position="435">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sequenciaSimplesDeNegociacoes#0;class#CandlestickFactoryTest#0" />
@@ -32,6 +28,8 @@
                 <element signature="method#apenasUmaNegociacao#0;class#CandlestickFactoryTest#0" />
                 <element signature="method#negociacoesOrdemCrescente#0;class#CandlestickFactoryTest#0" />
                 <element signature="method#negociacoesOrdemDecrescente#0;class#CandlestickFactoryTest#0" />
+                <element signature="method#paraNegociacoesDeTresDiasGeraTreCandles#0;class#CandlestickFactoryTest#0" />
+                <element signature="method#naoPermiteListaDesordenada#0;class#CandlestickFactoryTest#0" />
               </folding>
             </state>
           </provider>
@@ -49,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeradorAleatorioDeXML.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java">
+      <file leaf-file-name="ClienteWebService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/ws/ClienteWebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="331">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,9 +59,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="negociacao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/negociacao.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="GeradorAleatorioDeXML.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="CandlestickFactory.java" pinned="false" current-in-tab="false">
@@ -113,12 +118,13 @@
         <option value="$PROJECT_DIR$/src/test/java/CandlestickTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LeitorXMLTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" />
         <option value="$PROJECT_DIR$/src/test/java/NegociacaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/factory/CandlestickFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LeitorXMLTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/ws/ClienteWebService.java" />
       </list>
     </option>
   </component>
@@ -176,16 +182,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fj22-argentum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fj22-argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="argentum" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fj22-argentum" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532720668179</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Capítulo 5 completo">
+      <created>1532966193031</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532966193031</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Capítulo 5 completo">
+      <created>1532966642258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532966642258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -467,7 +478,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-4" width="1280" height="1028" extended-state="6" />
+    <frame x="1440" y="-4" width="1280" height="989" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -489,8 +500,8 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.34382284" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21150729" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
@@ -511,31 +522,10 @@
     <MESSAGE value="Capítulo 3 start" />
     <MESSAGE value="Capítulo 3 finish" />
     <MESSAGE value="Capítulo 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Capítulo 4" />
+    <MESSAGE value="Capítulo 5 completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capítulo 5 completo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="134" column="62" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="134" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sequenciaSimplesDeNegociacoes#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#semNegociacaoGeraZeros#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#apenasUmaNegociacao#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#negociacoesOrdemCrescente#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#negociacoesOrdemDecrescente#0;class#CandlestickFactoryTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="80" lean-forward="true" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NegociacaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -577,6 +567,8 @@
             <element signature="method#apenasUmaNegociacao#0;class#CandlestickFactoryTest#0" />
             <element signature="method#negociacoesOrdemCrescente#0;class#CandlestickFactoryTest#0" />
             <element signature="method#negociacoesOrdemDecrescente#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#paraNegociacoesDeTresDiasGeraTreCandles#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#naoPermiteListaDesordenada#0;class#CandlestickFactoryTest#0" />
           </folding>
         </state>
       </provider>
@@ -585,6 +577,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,6 +614,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LeitorXMLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/builder/CandleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -866,6 +856,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,6 +891,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/negociacao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LeitorXMLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sequenciaSimplesDeNegociacoes#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#semNegociacaoGeraZeros#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#apenasUmaNegociacao#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#negociacoesOrdemCrescente#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#negociacoesOrdemDecrescente#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#paraNegociacoesDeTresDiasGeraTreCandles#0;class#CandlestickFactoryTest#0" />
+            <element signature="method#naoPermiteListaDesordenada#0;class#CandlestickFactoryTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/negociacoes.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CandleBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -906,43 +954,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/reader/LeitorXML.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/ws/ClienteWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="331">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CandlestickFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="173" column="77" lean-forward="true" selection-start-line="173" selection-start-column="77" selection-end-line="173" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sequenciaSimplesDeNegociacoes#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#semNegociacaoGeraZeros#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#apenasUmaNegociacao#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#negociacoesOrdemCrescente#0;class#CandlestickFactoryTest#0" />
-            <element signature="method#negociacoesOrdemDecrescente#0;class#CandlestickFactoryTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/generator/GeradorAleatorioDeXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/negociacao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
